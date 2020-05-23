@@ -1,0 +1,16 @@
+Data type: INTEGER(int), FLOATING(float), STRING(str), BOOLEAN(bool).
+Use command type(DATA) in python console to test data type.
+
+SEQUENCE TYPES:
+    string    "abcd"
+    list      [0, "abcd"]           Can be changed if necessary
+    tuple     ("abc", "def")        Generally cannot be changed
+
+SEQUENCE OPERATIONS:
+    relation    in / not in
+    join        +
+    duplicate   *
+    slice       [:]
+
+★ LAMBDA
+    lambda arguments : expression
