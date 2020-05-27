@@ -3,7 +3,7 @@ Use command type(DATA) in python console to test data type.
 
 SEQUENCE TYPES:
     string    "abcd"
-    list      [0, "abcd"]           Can be changed if necessary
+    list      [0, "abcd"]           Can be changed if needed
     tuple     ("abc", "def")        Generally cannot be changed
 
 SEQUENCE OPERATIONS:
@@ -14,3 +14,21 @@ SEQUENCE OPERATIONS:
 
 ★ LAMBDA
     lambda arguments : expression
+
+COMPREHENSION
+    new_list = [expression for member in iterable (if conditional)]
+
+FILE HANDLING
+    open()                          Only one mode can be applied on each open() method.
+                                    r: READONLY. Open for reading in text mode. Default mode.
+                                    w: WRITE. Truncate file if already exists.
+                                    x: EXCLUSIVE CREATION. The same as w but raises an exception if the file already
+                                       exists, in order to avoid accidentally truncate/append an existing file.
+                                    a: APPEND. Insert texts at the current file stream position, default 0.
+    read()
+    readline()
+    seek()                          Set current position(cursor). seek(offset, whence), whence:
+                                    0: absolute position, 1: relative to current position, 2: relative to the end
+    write()
+    close()                         File must be closed after handling. Any changes will be applied when file close.
+
